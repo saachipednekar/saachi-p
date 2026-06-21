@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Saachi Pednekar | Portfolio</title>
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+}
+
+html{
+scroll-behavior:smooth;
+}
+
+body{
+font-family:Georgia, serif;
+background:#fdfaf8;
+color:#2f2f2f;
+line-height:1.8;
+}
+
+/* Navigation */
+
+nav{
+position:fixed;
+top:0;
+width:100%;
+background:white;
+padding:20px;
+text-align:center;
+box-shadow:0 2px 15px rgba(0,0,0,0.05);
+z-index:1000;
+}
+
+nav a{
+text-decoration:none;
+margin:0 20px;
+color:#8d5c63;
+font-weight:600;
+letter-spacing:1px;
+transition:0.3s;
+}
+
+nav a:hover{
+color:#b76e79;
+}
+
+/* Hero */
+
+.hero{
+height:100vh;
+display:flex;
+flex-direction:column;
+justify-content:center;
+align-items:center;
+text-align:center;
+padding:40px;
+background:linear-gradient(to bottom,#fff,#f9f3f5);
+}
+
+.hero h1{
+font-size:5rem;
+font-weight:normal;
+letter-spacing:4px;
+color:#b76e79;
+text-transform:uppercase;
+}
+
+.hero p{
+margin-top:20px;
+font-size:1.2rem;
+max-width:700px;
+}
+
+/* Sections */
+
+.section{
+padding:100px 12%;
+}
+
+.section h2{
+font-size:2rem;
+margin-bottom:30px;
+letter-spacing:2px;
+color:#b76e79;
+text-transform:uppercase;
+}
+
+/* Cards */
+
+.card{
+background:white;
+padding:35px;
+border-radius:18px;
+box-shadow:0 10px 30px rgba(0,0,0,0.05);
+}
+
+/* Projects */
+
+.grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:25px;
+}
+
+.project{
+background:white;
+padding:25px;
+border-radius:18px;
+box-shadow:0 8px 25px rgba(0,0,0,0.05);
+transition:0.3s;
+}
+
+.project:hover{
+transform:translateY(-5px);
+}
+
+.project h3{
+color:#8d5c63;
+margin-bottom:10px;
+}
+
+/* Quote */
+
+.quote{
+font-size:1.3rem;
+font-style:italic;
+text-align:center;
+}
+
+/* Footer */
+
+footer{
+padding:40px;
+text-align:center;
+background:#faf5f6;
+color:#6b6b6b;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<nav>
+<a href="#about">ABOUT</a>
+<a href="#projects">PROJECTS</a>
+<a href="#vision">VISION</a>
+</nav>
+
+<section class="hero">
+
+<h1>SAACHI PEDNEKAR</h1>
+
+<p>
+Writer • Creator • Business Enthusiast
+</p>
+
+<p>
+Building meaningful projects, exploring ideas,
+and creating a body of work that reflects
+curiosity, creativity, and ambition.
+</p>
+
+</section>
+
+<section class="section" id="about">
+
+<h2>ABOUT</h2>
+
+<div class="card">
+
+<p>
+Welcome.
+
+I am a commerce student with interests in writing,
+digital creativity, web development, branding,
+and entrepreneurship.
+
+This website serves as a portfolio of projects,
+ideas, and ongoing work as I continue to learn,
+create, and grow.
+</p>
+
+</div>
+
+</section>
+
+<section class="section" id="projects">
+
+<h2>PROJECTS</h2>
+
+<div class="grid">
+
+<div class="project">
+<h3>Writing</h3>
+<p>Creative writing, reflections, and original work.</p>
+</div>
+
+<div class="project">
+<h3>Web Development</h3>
+<p>Learning and building websites through practical projects.</p>
+</div>
+
+<div class="project">
+<h3>Creative Branding</h3>
+<p>Exploring digital design, storytelling, and online presence.</p>
+</div>
+
+</div>
+
+</section>
+
+<section class="section" id="vision">
+
+<h2>VISION</h2>
+
+<div class="card quote">
+
+"Reputation is earned through consistency, discipline, and the courage to create."
+
+</div>
+
+</section>
+
+<footer>
+
+© 2026 Saachi Pednekar. All Rights Reserved.
+
+</footer>
+
+</body>
+
+</html>
